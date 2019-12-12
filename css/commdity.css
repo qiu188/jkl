@@ -1,0 +1,281 @@
+.contner {
+    width: 1200px;
+    margin: 0 auto;
+}
+#top {
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+}
+#top .topInner {
+    height: 31px;
+    line-height: 32px;
+    background: #f7f7f7;
+}
+#top .topInner .topRight {
+    float: right;
+    width: 430px;
+}
+.topInner .topRight li {
+    float: left;
+    margin: 0 5px;
+}
+.topRight li .trumpet {
+    position: absolute;
+    top: 7px;
+    right: 160px;
+}
+.topRight li .notice {
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.topRight li .vx {
+    position: absolute;
+    top: 7px;
+    right: 70px;
+}
+.topRight li .vb {
+    position: absolute;
+    top: 7px;
+    right: 50px;
+}
+.topRight li .notice:hover {
+    color: #a10000;
+}
+.topRight li .indent:hover {
+    color: #a10000;
+}
+#search {
+    height: 62px;
+    width: 100%;
+}
+#searchInner {
+    padding-top: 20px;
+    height: 62px;
+}
+.searchShop {
+    width: 438px;
+    float: right;
+    margin-top: 25px;
+    position: relative;
+} 
+.searchShop form .txt {
+    width: 249px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border: 1px solid #c9caca;
+}
+.searchShop form .btn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/icon.png) no-repeat scroll -100px 0px;
+    margin-left: -6px;
+}
+.searchShop .active {
+    width: 105px;
+    height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../images/icon.png) no-repeat scroll -154px 0px;
+    position: relative;
+    z-index: 10;
+    float: right;
+    margin-top: -28px;
+}
+.searchShop .active>a {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #fff;
+}
+.hot {
+    width: 440px;
+    padding-top: 5px;
+    line-height: 18px;
+    color: #727171;
+    padding-left: 15px;
+    float: right;
+    margin-left: 350px;
+    margin-right: -20px;
+}
+.hot li {
+    float: left;
+    padding: 0 5px;
+}
+#nav {
+    width: 1000px;
+    height: 22px;
+    margin: 30px auto;
+    padding-left: 200px;
+    position: relative;
+    margin-top: 50px;
+}
+#nav ul .logo {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0px;
+        background: none;
+}
+#nav ul .logo>a {
+    display: block;
+    width: 185px;
+    height: 46px;
+    background: url(../images/logo.png) no-repeat scroll;
+}
+#nav ul li {
+    float: left;
+    width: 99px;
+    line-height: 22px;
+    padding: 0px 0px 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Miscrosoft YaHei;
+    position: relative;
+}
+.navLine {
+    display: block;
+    height: 16px;
+    width: 1px;
+    border-right: 1px solid #888;
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    overflow: hidden;
+}
+.danpin {
+    height: auto;
+    margin: 0 auto;
+    zoom: 1;
+}
+.danpinTitle {
+    height: 45px;
+    border-bottom: 1px solid #e5e6e6;
+    min-width: 980px;
+}
+.danpinTitle h2 {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    color: #333333;
+}
+.danpinTitle .productsnav {
+    float: right;
+    height: 45px;
+    margin-top: 15px;
+}
+.danpinTitle .productsnav li {
+    float: left;
+    color: #808080;
+    height: 45px;
+    margin: 0 10px 0 0;
+}
+.danpinTitle .productsnav li a {
+    display: inline-block;
+    padding: 0 15px 0 0;
+    height: 45px;
+    font-size: 14px;
+    color: #808080;
+}
+.danpincolLef {
+        width: 634px;
+        float: left;
+        height: auto;
+}
+.danpincolCenter {
+    width: 402px;
+    float: right;
+    margin: 0 80px;
+}
+#vertical.bigImg {
+    width: 400px;
+    height: 400px;
+    margin-top: 7px;
+    overflow: hidden;
+    border: 1px solid #e5e6e6;
+}
+.bigImg {
+    position: relative;
+    float: right;
+}
+#vertical #winSelecter {
+    width: 220px;
+    height: 200px;
+}
+#winSelecter {
+    position: absolute;
+    cursor: crosshair;
+    opacity: 0.6;
+    background-color: #e6eaf3;
+    border: 1px solid white;
+}
+.danpinRight {
+    width: 566px;
+    float: right;
+    overflow: hidden;
+}
+.danpinRight .danpinleftContent {
+    display: none;
+    float: left;
+}
+.danpinRight .danpinrightContent {
+    float: left;
+    margin-top: -6px;
+}
+.cuPrice {
+    color: #a10000;
+    height: 26px;
+}
+.cuPrice .tehuiMoney {
+    line-height: 26px;
+}
+.cuPrice strong {
+    font-family: Tahoma;
+    font-size: 24px;
+}
+.cuPrice a#czwenan {
+    float: right;
+    height: 26px;
+    margin-left: 20px;
+    line-height: 26px;
+    margin-top: 7px;
+    color: #a10000;
+}
+.select {
+    margin-top: 200px;
+}
+.shopping {
+    float: left;
+}
+.btnBuy {
+    background: #f7abaf;
+    width: 166px;
+    height: 31px;
+    display: block;
+    float: left;
+    margin-right: 13px;
+    border: 1px solid rgb(183, 27, 33);
+}
+#nowbuy span {
+    margin-left: 60px;
+    margin-top: 9px;
+    display: block;
+    font-size: 14px;
+    color: #a50309;
+}
+.btncart {
+    background: url(../images/icon.png) no-repeat scroll -147px -285px;
+    width: 168px;
+    height: 33px;
+    display: block;
+    float: left;
+}

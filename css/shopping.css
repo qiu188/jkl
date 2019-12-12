@@ -1,0 +1,63 @@
+body {
+    font: 12px Arial,Helvetica,sans-serif,"宋体";
+    width: 100%;
+    color: #333333;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 980px;
+}
+#header {
+    border-bottom: 1px solid #7A7F89;
+    padding-top: 15px;
+}
+a.logo {
+    float: left;
+    display: block;
+    width: 311px;
+    height: 39px;
+}
+a {
+    cursor: pointer;
+}
+a.logo>img {
+    width: 100px;
+    height: 39px;
+}
+.help-center {
+    float: right;
+    line-height: 39px;
+}
+.account {
+    margin-right: 40px;
+    color: #666666;
+    display: block;
+    line-height: 39px;
+}
+.account a, a.login {
+    color: #a10000;
+    padding: 0 5px;
+}
+#location {
+    background: url(../images/nova.gif);
+    background-position: 0 0;
+    width: 540px;
+    height: 28px;
+    margin-top: 10px;
+}
+#location em {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    width: 170px;
+}
+#location span {
+    color: #666666;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    width: 170px;
+}

@@ -1,0 +1,154 @@
+#body {
+    font: 100 12px "SimSun";
+}
+.wrapper {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+#top img {
+    border: none;
+}
+.box15 {
+    height: 15px;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    display: block;
+}
+.regist {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+.regist h1 {
+    width: 415px;
+    height: 35px;
+    float: right;
+    line-height: 35px;
+    margin: 0 100px 0 0;
+    border-bottom: 2px solid #b81e20;
+    font-size: 20px;
+    color: #a2a2a2;
+    font-weight: bolder;
+}
+.regist h1 span {
+    font-size: 14px;
+    float: right;
+}
+.regist h1 span a {
+    color: #b52024;
+    margin: 0 0 0 3px;
+}
+.ab1 {
+    width: 100%;
+    height: 10px;
+    overflow: hidden;
+    clear: both;
+}
+.adverset {
+    width: 465px;
+    height: 500px;
+    float: left;
+    margin: 0 0 0 130px;
+}
+.login {
+    width: 400px;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    float: right;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.tag {
+    width: 400px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #cbcbcb;
+}
+.tag li .on {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    background: #b42025;
+    color: #fff;
+    font-weight: bolder;
+}
+.tag li {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    background: #f5f5f5;
+    color: #656565;
+    cursor: pointer;
+    font-size: 14px;
+}
+.user_infor {
+    width: 415px;
+    padding: 10px 20px 10px;
+}
+.tips {
+    clear: both;
+    width: 220px;
+    min-height: 16px;
+    line-height: 16px;
+    color: #a10000;
+    text-indent: 30px;
+    background: url(../images/icon8.png) -351px -662px no-repeat;
+    background-color: #fff6f7;
+    border: 1px solid #cc9998;
+    margin-left: 48px;
+    display: block;
+    visibility: hidden;
+}
+.newtxt {
+    height: 45px;
+    width: 360px;
+    border: 1px solid #cbcbcb;
+    position: relative;
+    overflow: hidden;
+}
+.newtxt input {
+    height: 45px;
+    line-height: 45px;
+    color: #656565;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: left;
+    text-indent: 10px;
+    border: 0 none;
+    font-size: 14px;
+}
+.bt {
+    width: 360px;
+    margin: 10px auto 0 0;    
+}
+.bt a.forget {
+    line-height: 30px;
+    color: #b42025;
+    font-size: 14px;
+    font-weight: bolder;
+    float: right;
+}
+.clear {
+    clear: both;
+    line-height: 0px;
+    font-size: 0px;
+}
+.bt a.log {
+    width: 100%;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    background: #b42025;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}

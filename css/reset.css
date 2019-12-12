@@ -1,0 +1,45 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{
+	margin:0;
+	padding:0
+}
+body,html{
+	height:100%;
+}
+h1,h2,h3,b,strong{
+	font-weight:normal;
+	font-size:100%;
+}
+i,em{
+	font-style:normal;
+}
+a{
+	text-decoration:none;
+	color:#666666;
+}
+li{
+	list-style:none;
+}
+input{
+	outline:none;
+}
+img{
+	vertical-align:top;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+img{
+	vertical-align:top;
+}
+body {
+    font-size: 12px;
+    font-family: '宋体';
+    color: #333;
+}

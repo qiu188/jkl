@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车 - VANCL 凡客诚品</title>
+    <link rel="shortcut icon" href="http://i.vanclimg.com/common/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://i.vanclimg.com/common/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/shopping.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        img{
+			display: block;
+			width:50px;
+			height: 50px;
+		}
+    </style>
+</head>
+
+<body>
+    <div class="shade"></div>
+    <div id="wrapper">
+        <div id="header" class="clearfix">
+            <a class="logo" href="javascript:;" title="凡客诚品" target="_blank">
+                <img alt="凡客诚品" src="images/logo.png" />
+            </a>
+            <div class="help-center">
+                <a href="javascript:;" target="_blank">帮助中心</a>
+            </div>
+            <div class="account">
+                <p>您好，欢迎光临凡客诚品。<a class="login"
+                        href="javascript:;">登录</a>|<a
+                        class="reg" href="javascript:;">注册</a></p>
+
+            </div>
+        </div>
+        <div id="location">
+            <em>1.我的购物车</em> <span>2.填写核对信息单</span> <span>3.成功提交订单</span>
+        </div>
+        <div id="container"></div>
+    </div>
+</body>
+<script src="js/car.js"></script>
+<script>
+	localStorage.aa = 1;
+	localStorage.setItem('bb',23)
+	console.log(localStorage.bb)
+	console.log(localStorage.getItem('aa'));
+	var arr = [1,2,3,4,4];
+	var obj = JSON.stringify({a:1,b:2})
+	localStorage.setItem('list',arr);
+	localStorage.setItem('h',obj)
+	console.log(JSON.parse(localStorage.h))
+</script>
+</html>
